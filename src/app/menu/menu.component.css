@@ -1,0 +1,29 @@
+div {
+    display: flex;
+    flex-direction: column;
+    width: 30vmin;
+    flex: 1;
+}
+
+:host {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+}
+
+li {
+    margin: 0 0 1rem;
+    cursor: pointer;
+}
+
+h3 {
+    align-self: center;
+}
+
+.content {
+    flex: 5;
+}
+
+.selected {
+    color: red;
+}

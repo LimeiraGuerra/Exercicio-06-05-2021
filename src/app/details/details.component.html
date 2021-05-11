@@ -1,0 +1,13 @@
+<div *ngIf="person">
+    <img [src]="person.img" height="300" alt="profile">
+    <table>
+        <tr>
+            <th>Nome:</th>
+            <td>{{person.name}}</td>
+        </tr>
+        <tr>
+            <th>Idade:</th>
+            <td>{{person.age}}</td>
+        </tr>
+    </table>
+</div>

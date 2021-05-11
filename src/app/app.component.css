@@ -1,0 +1,21 @@
+h1, h3, h4 {
+    text-align: center;
+}
+
+main {
+    display: flex;
+    flex-direction: row;
+    gap: 15px;
+    margin: 0 5rem;
+}
+
+body {
+    position: relative;
+}
+
+footer {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    left: 0;
+}

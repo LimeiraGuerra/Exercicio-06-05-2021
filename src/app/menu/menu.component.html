@@ -1,0 +1,14 @@
+<div>
+    <h3>Menu</h3>
+    <ul>
+        <li (click)="toggleForm(true)" [class.selected]="showAddForm">Cadastrar</li>
+        <li *ngFor="let p of personList" (click)="showPerson(p)" [class.selected]="p == selectedPerson">
+            {{p.name}}
+        </li>
+    </ul>
+</div>
+
+<div class="content">
+    <app-add [toggleForm]="showAddForm" (closeForm)="toggleForm($event)"></app-add>
+    <app-details [person]="selectedPerson"></app-details>
+</div>

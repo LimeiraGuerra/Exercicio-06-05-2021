@@ -6,5 +6,6 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
-  title = 'exercicio06052021';
+  title = 'Website muito maneiro v2';
+  developer = "Augusto Fonseca Guerra - SC3002829";
 }
